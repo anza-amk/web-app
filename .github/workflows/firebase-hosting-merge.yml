@@ -16,8 +16,8 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MONEY_MARKET_FUND_17DCC }}
           channelId: live
-          projectId: money-market-fund-17dcc
-          site: money-market-fund-17dcc
+          projectId: mali-434814
+          site: "mali-434814-7a1c5"
           hostingRegion: us-central1
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks

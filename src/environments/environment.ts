@@ -60,19 +60,19 @@ export const environment = {
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyD7QSiuy1VYrxv43pbrJ2hQU5TPYIRCrds",
+  apiKey: "AIzaSyBiXsX-AlWYpHKZC-b0_zY0W5GKDltlkD4",
 
-  authDomain: "money-market-fund-17dcc.firebaseapp.com",
+  authDomain: "mali-434814.firebaseapp.com",
 
-  projectId: "money-market-fund-17dcc",
+  projectId: "mali-434814",
 
-  storageBucket: "money-market-fund-17dcc.appspot.com",
+  storageBucket: "mali-434814.appspot.com",
 
-  messagingSenderId: "141180179495",
+  messagingSenderId: "355572689676",
 
-  appId: "1:141180179495:web:18dd662be2958baaa66a02",
+  appId: "1:355572689676:web:0c3de11137a1e0e9323729",
 
-  measurementId: "G-3WJJJP214W"
+  measurementId: "G-22NYS47D8W"
 
 };
 
