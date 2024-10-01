@@ -19,5 +19,6 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MALI_434814 }}
           projectId: mali-434814
+          site: "mali-434814-7a1c6"
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks
