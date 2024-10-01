@@ -17,7 +17,7 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MALI_434814 }}
           channelId: live
           projectId: mali-434814
-          site: "mali-434814-7a1c6"
+          site: mali-434814
           hostingRegion: us-central1
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks

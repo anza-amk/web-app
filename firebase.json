@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "mali-434814-7a1c6",
+    "site": "mali-434814",
     "source": ".",
     "ignore": [
       "firebase.json",
