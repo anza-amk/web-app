@@ -17,11 +17,10 @@ export const environment = {
   fineractPlatformTenantId: window['env']['fineractPlatformTenantId'] || 'default',
   fineractPlatformTenantIds: window['env']['fineractPlatformTenantIds'] || 'default',
   // For connecting to others servers running elsewhere update the base API URL
-  baseApiUrls: window['env']['fineractApiUrls'] ||
-    'https://api.vuna.io,'
+  baseApiUrls: window['env']['fineractApiUrls'] ||'https://api.vuna.io,http://api.vuna.io:443,'
     + window.location.protocol + '//' + window.location.hostname + ':' + window.location.port,
   // For connecting to server running elsewhere set the base API URL
-  baseApiUrl: window['env']['baseApiUrl'] || window.location.protocol + '//' + window.location.hostname + ':' + window.location.port,
+  baseApiUrl: window['env']['baseApiUrl'] || 'http://api.vuna.io:443',
   allowServerSwitch: env.allow_switching_backend_instance,
   apiProvider: window['env']['apiProvider'] || '/fineract-provider/api',
   apiVersion: window['env']['apiVersion'] || '/v1',
