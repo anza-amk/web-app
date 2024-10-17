@@ -20,7 +20,7 @@ export const environment = {
   baseApiUrls: window['env']['fineractApiUrls'] ||'https://api.vuna.io,'
     + window.location.protocol + '//' + window.location.hostname + ':' + window.location.port,
   // For connecting to server running elsewhere set the base API URL
-  baseApiUrl: window['env']['baseApiUrl'] || 'https://api.vuna.io'
+  baseApiUrl: window['env']['baseApiUrl'] || 'https://api.vuna.io,',
   allowServerSwitch: env.allow_switching_backend_instance,
   apiProvider: window['env']['apiProvider'] || '/fineract-provider/api',
   apiVersion: window['env']['apiVersion'] || '/v1',
