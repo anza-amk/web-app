@@ -101,11 +101,11 @@ export class NotificationsTrayComponent implements OnInit, OnDestroy {
   /**
    * Function to test notifications in case of faulty backend.
    */
-  mockNotifications() {
-    this.notificationsService.getMockUnreadNotification().subscribe((response: any) => {
-      this.unreadNotifications = this.unreadNotifications.concat(response.pageItems);
-      this.setNotifications();
-    });
-  }
+  // mockNotifications() {
+  //   this.notificationsService.getMockUnreadNotification().subscribe((response: any) => {
+  //     this.unreadNotifications = this.unreadNotifications.concat(response.pageItems);
+  //     this.setNotifications();
+  //   });
+  // }
 
 }
