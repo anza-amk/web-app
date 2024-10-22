@@ -24,7 +24,7 @@
     "translations:extract": "ngx-translate-extract --input ./src --output ./src/translations/template.json --format=json --clean -sort --marker extract",
     "docs": "hads ./docs -o",
     "env": "node version.js",
-    "postinstall": "node version.js && ngcc",
+    "postinstall": "node version.js && ngcc && rm -rf node_modules/**/core/fesm2020",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
