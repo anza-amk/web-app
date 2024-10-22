@@ -4,7 +4,7 @@
     "baseUrl": "src",
     "downlevelIteration": true,
     "importHelpers": true,
-    "module": "es2015",
+    "module": "es2022",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -13,7 +13,7 @@
     "experimentalDecorators": true,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es2015",
+    "target": "es2022",
     "typeRoots": [
       "node_modules/@types",
       "src/typings.d.ts"
