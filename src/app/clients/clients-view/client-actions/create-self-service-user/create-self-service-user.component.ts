@@ -62,7 +62,7 @@ export class CreateSelfServiceUserComponent implements OnInit {
       'email': new UntypedFormControl('', [Validators.required, Validators.email]),
       'sendPasswordToEmail': new UntypedFormControl(true),
       'passwordNeverExpires': new UntypedFormControl(false),
-      'status': new UntypedFormControl({value: this.clientData.subStatus.active ? 'Active' : 'Inactive', disabled: true})
+      'status': new UntypedFormControl({value: this.clientData?.subStatus?.active ? 'Active' : 'Inactive', disabled: true})
     });
   }
 
