@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 764 268">
+  <!-- Background -->
+  <rect width="764" height="268" fill="#1A2B3C"/>
+  
+  <!-- Icon Group -->
+  <g transform="translate(232, 134) scale(1.5)">
+    <path d="M-20 20 L0 -20 L20 20" stroke="#4A90E2" stroke-width="8" fill="none"/>
+    <path d="M-15 15 L0 -15 L15 15" stroke="#50E3C2" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- vuna Text -->
+  <text x="482" y="160" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#FFFFFF">vuna</text>
+</svg>
