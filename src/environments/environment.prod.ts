@@ -10,7 +10,7 @@ export const environment = {
   hash: env.mifos_x.hash,
   // For connecting to server running elsewhere update the tenant identifier
   fineractPlatformTenantId: window['env']['fineractPlatformTenantId'] || 'default',
-  fineractPlatformTenantIds: window['env']['fineractPlatformTenantIds'] || 'default',
+  fineractPlatformTenantIds: window['env']['fineractPlatformTenantIds'] || 'default,naimeri',
   // For connecting to others servers running elsewhere update the base API URL
   baseApiUrls: window['env']['fineractApiUrls'] ||'https://api.vuna.io',
   // For connecting to server running elsewhere set the base API URL
@@ -35,7 +35,7 @@ export const environment = {
   defaultCharDelimiter: window['env']['defaultCharDelimiter'] || ',',
 
   displayBackEndInfo: window['env']['displayBackEndInfo'] || 'false',
-  displayTenantSelector: window['env']['displayTenantSelector'] || 'false',
+  displayTenantSelector: window['env']['displayTenantSelector'] || 'true',
   // Time in seconds, default 60 seconds
   waitTimeForNotifications: window['env']['waitTimeForNotifications'] || 60,
   // Time in seconds, default 30 seconds
