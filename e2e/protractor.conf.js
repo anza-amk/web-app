@@ -1,6 +1,8 @@
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
 
+/* eslint-env jasmine, node */
+
 const { SpecReporter } = require('jasmine-spec-reporter');
 
 exports.config = {
@@ -9,7 +11,7 @@ exports.config = {
     './src/**/*.e2e-spec.ts'
   ],
   capabilities: {
-    'browserName': process.env.PROTRACTOR_BROWSER || 'chrome'
+    browserName: process.env.PROTRACTOR_BROWSER || 'chrome'
   },
   // Only works with Chrome and Firefox
   directConnect: true,
@@ -18,7 +20,7 @@ exports.config = {
   jasmineNodeOpts: {
     showColors: true,
     defaultTimeoutInterval: 60000,
-    print: function() {}
+    print: function () {}
   },
   onPrepare() {
     require('ts-node').register({
